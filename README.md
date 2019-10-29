@@ -14,8 +14,8 @@ It generates an output file named show_table_locks.lst in the same directory.
 
 ### open_sessions.sql
 Shows current open sessions. Additional it show the cureent executed SQL.
-
 <br>
+
 ```
 sqlplus system/xxxx@//127.0.0.1:1521/xe @open_sessions.sql
 ```
@@ -23,9 +23,10 @@ sqlplus system/xxxx@//127.0.0.1:1521/xe @open_sessions.sql
 
 ### tablespace_info.sql
 Shows all table spaces, data files and their current usage.
-
 <br>
+
 ```
 sqlplus system/xxxx@//127.0.0.1:1521/xe @open_sessions.sql
 ```
+
 <br>
