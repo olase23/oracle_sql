@@ -1,6 +1,10 @@
+whenever sqlerror continue
+set echo off
 spool show_table_locks.lst
 
+set linesize 1000
 set serveroutput on
+
 declare
   host    VARCHAR2(64);
   sid     number;
